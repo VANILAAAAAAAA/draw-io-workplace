@@ -107,7 +107,7 @@
           <mxGeometry height="30" width="60" x="10" y="10" as="geometry" />
         </mxCell>
         <mxCell id="3SwoLBKGE5TvQkrzPOWH-26" parent="3SwoLBKGE5TvQkrzPOWH-29" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" value="" vertex="1">
-          <mxGeometry height="20" width="490" x="10" y="20" as="geometry" />
+          <mxGeometry height="20" width="480" x="10" y="20" as="geometry" />
         </mxCell>
         <mxCell id="3SwoLBKGE5TvQkrzPOWH-27" parent="3SwoLBKGE5TvQkrzPOWH-29" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Next 24 Hours&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="200" as="geometry" />
