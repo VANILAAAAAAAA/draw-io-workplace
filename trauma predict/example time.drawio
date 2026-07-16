@@ -148,7 +148,7 @@
         <mxCell id="Cz9zJ3ElJhsfQI_fBBap-91" parent="Cz9zJ3ElJhsfQI_fBBap-98" style="swimlane;startSize=0;" value="" vertex="1">
           <mxGeometry height="126.43" width="356" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="Cz9zJ3ElJhsfQI_fBBap-92" parent="Cz9zJ3ElJhsfQI_fBBap-91" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;ICU 202h Admission History&lt;/b&gt;" vertex="1">
+        <mxCell id="Cz9zJ3ElJhsfQI_fBBap-92" parent="Cz9zJ3ElJhsfQI_fBBap-91" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;ICU 18h Admission History&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="184" x="6" y="3.8700000000001182" as="geometry" />
         </mxCell>
         <mxCell id="Cz9zJ3ElJhsfQI_fBBap-99" connectable="0" parent="1" style="group" value="" vertex="1">
