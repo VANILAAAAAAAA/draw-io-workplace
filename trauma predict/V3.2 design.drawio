@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="hLIcs0rKn7NrK43KJilQ">
+    <mxGraphModel dx="632" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5VXsNi8bNcpqZjUlTMTF-3" edge="1" parent="1" source="5VXsNi8bNcpqZjUlTMTF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5VXsNi8bNcpqZjUlTMTF-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VXsNi8bNcpqZjUlTMTF-4" connectable="0" parent="5VXsNi8bNcpqZjUlTMTF-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Data Extraction" vertex="1">
+          <mxGeometry relative="1" x="-0.4356" y="2" as="geometry">
+            <mxPoint x="-2" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5VXsNi8bNcpqZjUlTMTF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="MIMICIV Source Data" vertex="1">
+          <mxGeometry height="40" width="190" x="170" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5VXsNi8bNcpqZjUlTMTF-6" edge="1" parent="1" source="5VXsNi8bNcpqZjUlTMTF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5VXsNi8bNcpqZjUlTMTF-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VXsNi8bNcpqZjUlTMTF-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Trauma Cohort Data C4" vertex="1">
+          <mxGeometry height="40" width="190" x="170" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5VXsNi8bNcpqZjUlTMTF-11" edge="1" parent="1" source="5VXsNi8bNcpqZjUlTMTF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5VXsNi8bNcpqZjUlTMTF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VXsNi8bNcpqZjUlTMTF-13" edge="1" parent="1" source="5VXsNi8bNcpqZjUlTMTF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5VXsNi8bNcpqZjUlTMTF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VXsNi8bNcpqZjUlTMTF-14" edge="1" parent="1" source="5VXsNi8bNcpqZjUlTMTF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5VXsNi8bNcpqZjUlTMTF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VXsNi8bNcpqZjUlTMTF-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Hourly Trajectories" vertex="1">
+          <mxGeometry height="40" width="190" x="170" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="5VXsNi8bNcpqZjUlTMTF-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="H1 Only" vertex="1">
+          <mxGeometry height="30" width="130" x="50" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="5VXsNi8bNcpqZjUlTMTF-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="M4 + H1" vertex="1">
+          <mxGeometry height="30" width="130" x="200" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="5VXsNi8bNcpqZjUlTMTF-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="F24 + M4 + H1" vertex="1">
+          <mxGeometry height="30" width="130" x="348.5" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
