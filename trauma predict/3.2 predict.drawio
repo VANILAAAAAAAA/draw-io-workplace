@@ -226,14 +226,45 @@
         <mxCell id="24f0tn0ucE1x0JUy2BvQ-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Model" vertex="1">
           <mxGeometry height="30" width="110" x="670" y="520" as="geometry" />
         </mxCell>
+        <mxCell id="24f0tn0ucE1x0JUy2BvQ-104" edge="1" parent="1" source="24f0tn0ucE1x0JUy2BvQ-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="24f0tn0ucE1x0JUy2BvQ-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="560" />
+              <mxPoint x="575" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="24f0tn0ucE1x0JUy2BvQ-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#D6B656;" value="M4_5" vertex="1">
           <mxGeometry height="30" width="80" x="850" y="520" as="geometry" />
         </mxCell>
         <mxCell id="24f0tn0ucE1x0JUy2BvQ-78" edge="1" parent="1" source="24f0tn0ucE1x0JUy2BvQ-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="24f0tn0ucE1x0JUy2BvQ-76" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="24f0tn0ucE1x0JUy2BvQ-103" edge="1" parent="1" source="24f0tn0ucE1x0JUy2BvQ-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="24f0tn0ucE1x0JUy2BvQ-102" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="24f0tn0ucE1x0JUy2BvQ-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#AECBF4;strokeColor=#6c8ebf;" value="Patient Trajectory" vertex="1">
           <mxGeometry height="30" width="110" x="520" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="24f0tn0ucE1x0JUy2BvQ-97" edge="1" parent="1" source="24f0tn0ucE1x0JUy2BvQ-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="24f0tn0ucE1x0JUy2BvQ-100" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24f0tn0ucE1x0JUy2BvQ-98" connectable="0" parent="24f0tn0ucE1x0JUy2BvQ-97" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Predict" vertex="1">
+          <mxGeometry relative="1" x="-0.2946" y="1" as="geometry">
+            <mxPoint x="9" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24f0tn0ucE1x0JUy2BvQ-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Model" vertex="1">
+          <mxGeometry height="30" width="110" x="670" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="24f0tn0ucE1x0JUy2BvQ-100" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#D6B656;" value="M4_6" vertex="1">
+          <mxGeometry height="30" width="80" x="850" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="24f0tn0ucE1x0JUy2BvQ-101" edge="1" parent="1" source="24f0tn0ucE1x0JUy2BvQ-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="24f0tn0ucE1x0JUy2BvQ-99" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24f0tn0ucE1x0JUy2BvQ-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#AECBF4;strokeColor=#6c8ebf;" value="Patient Trajectory" vertex="1">
+          <mxGeometry height="30" width="110" x="520" y="580" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
