@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="b2cmxqMMj_uZqD84havO">
+    <mxGraphModel dx="2091" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-14" edge="1" parent="1" source="FqMsM4HpPC3Xofa1OSaT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FqMsM4HpPC3Xofa1OSaT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-20" connectable="0" parent="FqMsM4HpPC3Xofa1OSaT-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Predict 24 Times" vertex="1">
+          <mxGeometry relative="1" x="-0.1232" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="shared encoder" vertex="1">
+          <mxGeometry height="40" width="120" x="310" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-7" edge="1" parent="1" source="FqMsM4HpPC3Xofa1OSaT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FqMsM4HpPC3Xofa1OSaT-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="225" />
+              <mxPoint x="-20" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-8" connectable="0" parent="FqMsM4HpPC3Xofa1OSaT-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Reserve 24 Hours" vertex="1">
+          <mxGeometry relative="1" x="0.6189" y="-1" as="geometry">
+            <mxPoint x="-33" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-9" edge="1" parent="1" source="FqMsM4HpPC3Xofa1OSaT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FqMsM4HpPC3Xofa1OSaT-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="225" />
+              <mxPoint x="-20" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-10" connectable="0" parent="FqMsM4HpPC3Xofa1OSaT-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Divided By Day&lt;div&gt;Summary&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3301" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="5-tuple Hourly Data" vertex="1">
+          <mxGeometry height="40" width="140" x="-170" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-12" edge="1" parent="1" source="FqMsM4HpPC3Xofa1OSaT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FqMsM4HpPC3Xofa1OSaT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Day Summary Data" vertex="1">
+          <mxGeometry height="40" width="150" x="120" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-5" edge="1" parent="1" source="FqMsM4HpPC3Xofa1OSaT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FqMsM4HpPC3Xofa1OSaT-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="MIMICIV Source Data" vertex="1">
+          <mxGeometry height="40" width="150" x="-370" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-11" edge="1" parent="1" source="FqMsM4HpPC3Xofa1OSaT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FqMsM4HpPC3Xofa1OSaT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Recent 24H Hourly Data" vertex="1">
+          <mxGeometry height="40" width="150" x="120" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-15" edge="1" parent="1" source="FqMsM4HpPC3Xofa1OSaT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FqMsM4HpPC3Xofa1OSaT-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="140.09" />
+              <mxPoint x="195" y="140.09" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-16" connectable="0" parent="FqMsM4HpPC3Xofa1OSaT-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Insert" vertex="1">
+          <mxGeometry relative="1" x="0.0829" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-17" edge="1" parent="1" source="FqMsM4HpPC3Xofa1OSaT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="FqMsM4HpPC3Xofa1OSaT-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="320.09" />
+              <mxPoint x="195" y="320.09" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-18" connectable="0" parent="FqMsM4HpPC3Xofa1OSaT-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Update" vertex="1">
+          <mxGeometry relative="1" x="0.1292" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqMsM4HpPC3Xofa1OSaT-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Next Hour State" vertex="1">
+          <mxGeometry height="40" width="150" x="580" y="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
