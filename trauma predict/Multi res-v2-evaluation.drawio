@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="b2cmxqMMj_uZqD84havO">
+    <mxGraphModel dx="550" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AD1DmRcu4MIlBKG5aNBl-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;dashPattern=8 8;" value="Direct Forward Predict 24 Hours" vertex="1">
+          <mxGeometry height="40" width="210" x="340" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="AD1DmRcu4MIlBKG5aNBl-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;dashPattern=8 8;" value="Rolling Predict With Ground Truth" vertex="1">
+          <mxGeometry height="40" width="210" x="340" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="AD1DmRcu4MIlBKG5aNBl-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Rolling Predict With Model Generated Output" vertex="1">
+          <mxGeometry height="40" width="210" x="340" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="AD1DmRcu4MIlBKG5aNBl-5" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;" value="" vertex="1">
+          <mxGeometry height="180" width="20" x="550" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="AD1DmRcu4MIlBKG5aNBl-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1" value="Evaluation Route" vertex="1">
+          <mxGeometry height="30" width="150" x="560" y="445" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
