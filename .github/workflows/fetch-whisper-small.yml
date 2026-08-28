@@ -1,4 +1,4 @@
-name: Temporary Whisper Model Fetch
+name: Temporary Whisper Binary Fetch
 
 on:
   push:
@@ -7,23 +7,23 @@ on:
   workflow_dispatch:
 
 jobs:
-  fetch-model:
+  fetch-binary:
     runs-on: ubuntu-latest
     permissions:
       contents: read
     steps:
-      - name: Download verified Whisper small.en Q5 model
+      - name: Download verified whisper.cpp Linux x64 binary
         shell: bash
         run: |
           set -euo pipefail
           curl -L --fail --retry 5 --retry-delay 5 \
-            -o ggml-small.en-q5_1.bin \
-            https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.en-q5_1.bin
-          echo "bfdff4894dcb76bbf647d56263ea2a96645423f1669176f4844a1bf8e478ad30  ggml-small.en-q5_1.bin" | sha256sum -c -
-      - name: Upload model artifact
+            -o whisper-bin-ubuntu-x64.tar.gz \
+            https://github.com/ggml-org/whisper.cpp/releases/download/b4938/whisper-bin-ubuntu-x64.tar.gz
+          echo "f4cfc1f969a13805908fb72043ce7cc896eb42e0b8afbe841dc8e7298923b061  whisper-bin-ubuntu-x64.tar.gz" | sha256sum -c -
+      - name: Upload binary artifact
         uses: actions/upload-artifact@v4
         with:
-          name: whisper-small-en-q5-model
-          path: ggml-small.en-q5_1.bin
+          name: whisper-linux-x64-binary
+          path: whisper-bin-ubuntu-x64.tar.gz
           compression-level: 0
           retention-days: 1
