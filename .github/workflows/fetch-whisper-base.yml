@@ -1,0 +1,29 @@
+name: Temporary Whisper Base Model Fetch
+
+on:
+  push:
+    paths:
+      - .github/workflows/fetch-whisper-base.yml
+  workflow_dispatch:
+
+jobs:
+  fetch-model:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Download verified Whisper base.en Q5 model
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -L --fail --retry 5 --retry-delay 5 \
+            -o ggml-base.en-q5_1.bin \
+            https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en-q5_1.bin
+          echo "c77c5766f1cef09b6b7d47f21b546cbddd4157886b3b5d6d4f709e91e66c7c2b  ggml-base.en-q5_1.bin" | sha256sum -c -
+      - name: Upload model artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: whisper-base-en-q5-model
+          path: ggml-base.en-q5_1.bin
+          compression-level: 0
+          retention-days: 1
