@@ -1,9 +1,16 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="dUhTsIEMvPYzXoKK1B8h">
-    <mxGraphModel dx="1053" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="903" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-34" edge="1" parent="1" source="PbyhBvl_BiIINOBb_rcY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PbyhBvl_BiIINOBb_rcY-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PbyhBvl_BiIINOBb_rcY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="h5ad raw data" vertex="1">
           <mxGeometry height="60" width="120" x="140" y="130" as="geometry" />
         </mxCell>
@@ -44,11 +51,47 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-19" edge="1" parent="1" source="PbyhBvl_BiIINOBb_rcY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PbyhBvl_BiIINOBb_rcY-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PbyhBvl_BiIINOBb_rcY-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="joint&amp;nbsp; context" vertex="1">
           <mxGeometry height="60" width="120" x="620" y="130" as="geometry" />
         </mxCell>
         <mxCell id="PbyhBvl_BiIINOBb_rcY-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;HepG2 cell 1   [...]&lt;br/&gt;HepG2 cell 2   [...]&lt;br/&gt;...&lt;br/&gt;Jurkat cell 1  [...]&lt;br/&gt;...&lt;br/&gt;K562 cell 1    [...]&lt;br/&gt;...&lt;br/&gt;RPE1 cell 1    [...]&lt;/code&gt;&lt;/pre&gt;" vertex="1">
-          <mxGeometry height="160" width="180" x="590" y="250" as="geometry" />
+          <mxGeometry height="160" width="180" x="590" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-26" edge="1" parent="1" source="PbyhBvl_BiIINOBb_rcY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PbyhBvl_BiIINOBb_rcY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="processed context" vertex="1">
+          <mxGeometry height="60" width="120" x="930" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-22" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="110" x="760" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-20" parent="PbyhBvl_BiIINOBb_rcY-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="unique id encode" vertex="1">
+          <mxGeometry height="30" width="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-21" parent="PbyhBvl_BiIINOBb_rcY-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="select&amp;nbsp;HVG" vertex="1">
+          <mxGeometry height="30" width="110" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Highly Variable Genes&lt;div&gt;e.g. 2000 HVG&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="810" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-24" edge="1" parent="1" source="PbyhBvl_BiIINOBb_rcY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PbyhBvl_BiIINOBb_rcY-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Model" vertex="1">
+          <mxGeometry height="60" width="120" x="930" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="e.g. 256* 2000&lt;div&gt;&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;NAF1 KD cells&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1000" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-33" edge="1" parent="1" source="PbyhBvl_BiIINOBb_rcY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PbyhBvl_BiIINOBb_rcY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="KD condition" vertex="1">
+          <mxGeometry height="60" width="120" x="384" y="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
