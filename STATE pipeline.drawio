@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="dUhTsIEMvPYzXoKK1B8h">
-    <mxGraphModel dx="903" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1264" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,10 +81,18 @@
         <mxCell id="PbyhBvl_BiIINOBb_rcY-24" edge="1" parent="1" source="PbyhBvl_BiIINOBb_rcY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PbyhBvl_BiIINOBb_rcY-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-36" edge="1" parent="1" source="PbyhBvl_BiIINOBb_rcY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PbyhBvl_BiIINOBb_rcY-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-37" connectable="0" parent="PbyhBvl_BiIINOBb_rcY-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="output" vertex="1">
+          <mxGeometry relative="1" x="-0.1673" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PbyhBvl_BiIINOBb_rcY-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Model" vertex="1">
           <mxGeometry height="60" width="120" x="930" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="PbyhBvl_BiIINOBb_rcY-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="e.g. 256* 2000&lt;div&gt;&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;NAF1 KD cells&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="e.g.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NAF1 KD cells&lt;/span&gt;&lt;div&gt;256* 2000 matrix&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1000" y="250" as="geometry" />
         </mxCell>
         <mxCell id="PbyhBvl_BiIINOBb_rcY-33" edge="1" parent="1" source="PbyhBvl_BiIINOBb_rcY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PbyhBvl_BiIINOBb_rcY-25">
@@ -92,6 +100,9 @@
         </mxCell>
         <mxCell id="PbyhBvl_BiIINOBb_rcY-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="KD condition" vertex="1">
           <mxGeometry height="60" width="120" x="384" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="PbyhBvl_BiIINOBb_rcY-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="KD population" vertex="1">
+          <mxGeometry height="60" width="120" x="930" y="620" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
